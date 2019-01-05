@@ -51,7 +51,6 @@ test('like image', async t => {
   let created = await db.saveImage(image)
   let result = await db.likeImage(created.publicId)
 
-  t.true(result.liked)
   t.is(result.likes, image.likes + 1)
 })
 

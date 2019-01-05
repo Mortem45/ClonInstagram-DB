@@ -7,6 +7,6 @@ const db = new Db(config.db)
 
 db.connect()
   .then(conn => {
-    console.log('Database setup');
+    console.log('Database setup')
     process.exit(0)
   })
