@@ -24,7 +24,7 @@ const fixtures = {
       name: 'A random user',
       username: `use_id${uuid.v4()}`,
       password: uuid.uuid(),
-      email: `${uuid.v4()}@instagram.test`
+      email: `${uuid.v4()}@cloninstagram.test`
     }
   }
 }
